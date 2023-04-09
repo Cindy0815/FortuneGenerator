@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#myBackground{
+	background-color: lightpink;
+	border: 10px solid lightpink;
+}
+input, button {
+  font-size: 1.5rem;
+  color: #b94fe0;
+}
+
+h2{
+	font-size: 1.8rem;
+	color: white;
+	text-shadow: 0px 0px 13px #bf6bff;
+}
+
+
+#title {
+  text-shadow: 0px 0px 13px #bf6bff;
+  font-size: 3.5rem;
+	text-align: center;
+	color: white;
+}
+
+#outputText {
+  background-color: white;
+  padding: 5vmin;
+  border-radius: 50%;
+  transition: all 5s;
+}
+
+#executeButton{
+	background-color: black;
+	border-radius: 50px;
+	padding: 10px;
+	border: 5px solid #776080;
+	color: #776080;
+	color: white;
+}
+
+#inputText{
+	border-radius: 50px;
+	padding: 20px;
+	text-align: center;
+	color: #000;
+	border: 10px solid #776080;
+	transition: all 5s;
+}
+.magicball-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -100px;
+  padding: 20px;
+
+}
+
+.img-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.img-container img{
+  width: 650px;
+  height: 650px;
+  object-fit: cover;
+}
+
+.img-container p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  z-index: 1;
+  text-align: center;
+  color:#000;
+  font-size: 1.8rem;
+}
+
+.magicball-container .input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.magicball-container input,
+.magicball-container button {
+  margin-top: 10px;
+}
